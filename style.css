@@ -1,0 +1,202 @@
+﻿body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.div_img_backG{
+  position:fixed;
+}
+    .div_img_backG img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+.div_overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.div_contianer {
+    position: absolute;
+    width: 100%;
+}
+
+.nav-fixed {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.div_logo {
+    align-self: center;
+    margin-left: 2rem;
+    margin-top: 0.6rem;
+}
+.div_list {
+    align-self: center;
+    margin-right: 1rem;
+    padding-right:1.5rem;
+}
+.div_list ul li{
+   list-style-type:none;
+   display:inline;   
+}
+    .div_list ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        padding: 1rem;
+        font-family: Apple Chancery, cursive;
+    }
+        .div_list ul li a:hover {
+     box-shadow: 0px 0px 0px 1px #d92626;
+        }
+
+main {
+    margin-top: 6rem;
+    padding-top:1rem;
+}
+
+    main h1 {
+        text-align: center;
+        color: wheat;
+        font-family: cursive;
+        font-size: 32px;
+    }
+.div-form {
+    height: auto;
+    display: flex;
+    padding: 1.5rem 0px 2rem 0px;
+}
+form {
+    padding: 1rem;
+   width:100%;
+    
+}
+.div_flex_inp {
+    display: flex;
+}
+
+form label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
+    font-family: Apple Chancery, cursive;
+    display: block;
+}
+
+.div_lab_inp{
+    margin-left:6rem;
+}
+.div_flex_inp input {
+    width: 30rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    outline: 0;
+    padding-left: 0.5rem;
+    background: transparent;
+    color:white;
+}
+    input[type="file"] {
+      padding-top:5px;
+    }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.div_check_lab {
+    margin-top:2rem;
+    margin-left:6rem;
+    display: flex;
+}
+    .div_check_lab label{
+        font-size:14px;
+        padding-top:3px;
+        padding-left:4px;
+    }
+
+.div-actions {
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+}
+.div-action {
+    margin-right: 1rem;
+    width:25%;
+}
+    .div-action input {
+        padding: 0.7rem 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: transparent;
+        font-family: Apple Chancery, cursive;
+        color: white;
+        width: 100%;
+        border: 1px solid green;
+        color: #00CC00;
+    }
+        .div-action input:hover {
+            background-color: green;
+            transition:0.9s;
+            color:white;
+        }
+        footer {
+            background-color: white;
+            margin-top:7rem;
+        }
+
+.div_foot_icon {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+}
+.div-icon{
+    margin-left:2rem;
+}
+.div_foot_list {
+    text-align: center;
+    padding-bottom:2rem;
+    margin-top:2rem;
+}
+.div_foot_list ul li {
+    list-style-type: none;
+    margin-left:1.5rem;
+}
+    
+.div_foot_list {
+    display: flex;
+    justify-content:center;
+}
+.div_foot_list ul{
+        text-align:justify;
+}
+ .div_foot_list h3 {
+        font-family: Apple Chancery, cursive;
+ }
+    .div_foot_list ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .div-foot-bot {
+        text-align: center;
+        background-color: forestgreen;
+        color: white;
+        font-size: 16px;
+        padding: 1rem 0rem 1rem 2.5rem;
+    }
+
+.nav-active {
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+
+ 
